@@ -18,7 +18,7 @@ void loop() {
   buttonState = digitalRead(buttonPin);   // Read the state of the pushbutton value
 
   if (buttonState == HIGH) {
-    Serial.println("何振铭");
+    Serial.println("Hello world");
   }
   else {
     
